@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  grid-gap: 8px;
+  justify-content: center;
+  background-color: #b5a397;
+}
+
+.item {
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #f6f1ed
+}
+
+.item img {
+  max-width: 100%;
+}
+
+.level-1 {
+  grid-row-end: span 3;
+}
+
+.level-2 {
+  grid-row-end: span 2;
+}
+
+.level-3 {
+  grid-row-end: span 1;
+}
