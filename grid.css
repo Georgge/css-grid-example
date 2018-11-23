@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 25%);
+  grid-template-columns: repeat(auto-fill, 268px);
   grid-gap: 8px;
   justify-content: center;
   background-color: #b5a397;
@@ -9,7 +9,7 @@
 .item {
   border-radius: 4px;
   padding: 10px;
-  background-color: #f6f1ed
+  background-color: #f6f1ed;
 }
 
 .item img {
